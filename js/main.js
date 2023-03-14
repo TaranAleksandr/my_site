@@ -35,7 +35,7 @@ const ajaxSend = async (formData) => {
   });
   if (!fetchResp.ok) {
     // если ошибка, то...
-    throw new Error(`Ошибка по адресу ${url}, статус ошибки ${fetchResp.status}`); // выводим статус ошибки и текст
+    throw new Error(`Ошибка по адресу , статус ошибки ${fetchResp.status}`); // выводим статус ошибки и текст
   }
   return await fetchResp.text(); // если все хорошо, возвращаем ответ сервера
 };
