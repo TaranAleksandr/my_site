@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Web-developer and Design Таран Александр</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-list-item">
+            <a href="#portfolio" tabindex="2">Портфолио</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a href="#contacts" tabindex="3">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main__container">
+        <h1 class="main__title">Web-разработчик и <span>дизайнер</span></h1>
+        <p class="main__text">Здравствуйте!<br />Меня зовут Александр Таран.</p>
+        <p class="main__mission">
+          Моя <span>Миссия</span> - разработать сайт, который поможет Вашему
+          делу в развитии.
+        </p>
+        <button class="btn btn--main open-modal" tabindex="1">
+          Заказать сайт
+        </button>
+      </div>
+      <!--main-container-->
+      <div class="container">
+        <section class="features">
+          <h2 class="features__title">Работа со мной</h2>
+
+          <ul class="features__list">
+            <li class="features__list-item">
+              <h3 class="features__list-item-title">По договору</h3>
+              <p class="features__list-item-text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </li>
+            <li class="features__list-item">
+              <h3 class="features__list-item-title">Качество</h3>
+              <p class="features__list-item-text">
+                Каждый проект выполняю как для себя. Только понятный и валидный
+                код, который не доставляет проблем.
+              </p>
+            </li>
+            <li class="features__list-item">
+              <h3 class="features__list-item-title">Понятная цена</h3>
+              <p class="features__list-item-text">
+                Прозрачное ценообразование. Рассчитаю цену под Ваш проект и
+                объясню как она формируется.
+              </p>
+            </li>
+            <li class="features__list-item">
+              <h3 class="features__list-item-title">Промежуточные итоги</h3>
+              <p class="features__list-item-text">
+                Вы будете в курсе того, как продвигается работа над Вашим
+                сайтом. Никаких сюрпризов перед сроком сдачи.
+              </p>
+            </li>
+            <li class="features__list-item">
+              <h3 class="features__list-item-title">Точные сроки</h3>
+              <p class="features__list-item-text">
+                В договоре четко прописана дата сдачи проекта. Если просрочу -
+                плачу неустойку.
+              </p>
+            </li>
+            <li class="features__list-item">
+              <h3 class="features__list-item-title">Поддержка</h3>
+              <p class="features__list-item-text">
+                После сдачи проекта не забуду про Вас. При необходимости научу
+                Вас пользоваться сайтом, запишу инструкции.
+              </p>
+            </li>
+          </ul>
+          <!--features__list-->
+          <button class="btn open-modal">Обсудить проект</button>
+        </section>
+        <section class="portfolio" id="portfolio">
+          <h2 class="portfolio__title">Портфолио</h2>
+          <div class="slider">
+            <div class="slider__item active">
+              <img
+                src="./images/Placeholder_view_vector 1.png"
+                alt="Фото страницы"
+                class="slider__image"
+              />
+
+              <div class="slider__text">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <h3 class="slider__title">Лендинг “Сайт-портфолио”</h3>
+                </a>
+                <p class="slider__description">
+                  Эта работа выполнена с целью решить вопрос отсутствия
+                  портфолио у начинающго web-разработчика. Работа создавалась с
+                  нуля. Из исходных материалов только фотография для главного
+                  экрана без обработки
+                </p>
+                <div class="slider__info">
+                  <div class="slider__date">
+                    <h3 class="slider__date-title">Срок выполнения</h3>
+                    <p class="slider__date-count">4 рабочих дня</p>
+                  </div>
+                  <div class="slider__cost">
+                    <h3 class="slider__cost-title">Стоимость</h3>
+                    <p class="slider__cost-count">Бесплатно</p>
+                  </div>
+                </div>
+                <!--slider__info-->
+              </div>
+              <!--slider__text-->
+            </div>
+            <!--slider__item-->
+            <div class="slider__item">
+              <img
+                src="./images/Placeholder_view_vector 1.png"
+                alt="Фото страницы"
+                class="slider__image"
+              />
+
+              <div class="slider__text">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <h3 class="slider__title">Проверка</h3>
+                </a>
+                <p class="slider__description">
+                  Этот слайд создан для проверки работы Slider'a. Это просто
+                  рыбный текст, чтобы понять как работает заполнение
+                  псевдоэлементов
+                </p>
+                <div class="slider__info">
+                  <div class="slider__date">
+                    <h3 class="slider__date-title">Срок выполнения</h3>
+                    <p class="slider__date-count">4 рабочих дня</p>
+                  </div>
+                  <div class="slider__cost">
+                    <h3 class="slider__cost-title">Стоимость</h3>
+                    <p class="slider__cost-count">Очень дорого</p>
+                  </div>
+                </div>
+                <!--slider__info-->
+              </div>
+              <!--slider__text-->
+            </div>
+            <!--slider__item-->
+          </div>
+          <!--slider-->
+          <button class="btn open-modal">Заказать сайт</button>
+        </section>
+
+        <section class="contacts" id="contacts">
+          <div class="contacts__left">
+            <p class="contacts__text">
+              Надеюсь, что Вам понравился мои сайт и портфолио. Если Вы хотите
+              заказать разработку сайта или отдельных его частей, позвоните или
+              напишите мне.
+            </p>
+            <a class="contacts__tel" href="tel:+79516744102"
+              >+7 (951) 674-41-02</a
+            >
+            <div class="social">
+              <a href="#" class="social__item"
+                ><img src="/images/icons/social/vk.svg" alt="Вконтакте"
+              /></a>
+              <a href="#" class="social__item"
+                ><img src="/images/icons/social/telegram.svg" alt="Telegram"
+              /></a>
+              <a href="#" class="social__item"
+                ><img src="/images/icons/social/whatapp.svg" alt="Whatsapp"
+              /></a>
+            </div>
+            <p>Или оставьте заявку на обратный звонок</p>
+          </div>
+          <div class="contacts__right">
+            <h2 class="form__title">Заполните заявку</h2>
+            <form class="contacts__form" action="#">
+              <input
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                class="input"
+              />
+              <input
+                type="text"
+                name="tel"
+                placeholder="Ваш телефон"
+                class="input"
+              />
+              <button class="btn btn--form" type="submit">
+                Оставить заявку
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+      <div class="modal hidden" id="modal">
+        <div class="modal__container">
+          <div class="modal__close"></div>
+          <h2 class="modal__title">Укажите Ваши данные</h2>
+          <form action="#" class="modal__form">
+            <input
+              type="text"
+              name="name"
+              class="modal__input"
+              placeholder="Ваше имя"
+              required
+            />
+            <input
+              type="tel"
+              name="tel"
+              class="modal__input"
+              placeholder="Ваш телефон"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              class="modal__input"
+              placeholder="Ваш e-mail"
+              required
+            />
+            <textarea
+              name="description"
+              id=""
+              cols="30"
+              rows="8"
+              class="modal__input"
+              placeholder="Введите сообщение"
+              required
+            ></textarea>
+            <input type="submit" class="btn btn--modal" value="Заказать сайт" />
+          </form>
+        </div>
+        <!--modal-->
+      </div>
+      <!--modal-->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

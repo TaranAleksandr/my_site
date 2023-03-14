@@ -1,0 +1,64 @@
+/*
+em - от текущего шоифта
+% - от родительской ширины
+rem - от стиля html
+vw – 1% ширины окна
+vh – 1% высоты окна
+vmin – наименьшее из (vw, vh), в IE9 обозначается vm
+vmax – наибольшее из (vw, vh)
+*/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background-color: #000;
+  /* под проект */
+  font-family: "Roboto", Arial, sans-serif;
+  /* в "" свой шрифт под проект*/
+  font-weight: 400;
+  color: #fff;
+  line-height: 1;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}

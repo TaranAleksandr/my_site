@@ -1,0 +1,28 @@
+.sidebar {
+  width: 10%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: gray;
+}
+
+.hide {
+  width: 2%;
+}
+
+.sidebar__arrow {
+  width: 5rem;
+  cursor: pointer;
+  color: #000;
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.sidebar__item {
+  margin-top: 2rem;
+}
